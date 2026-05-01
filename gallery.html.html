@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | Valley View · Bedroom · Living · Kitchen | The Oak Villa Dehradun</title>
+<meta name="description" content="Real photos of The Oak Villa Dehradun — private 1BHK floor, Mussoorie valley view balcony, bedroom, living area, kitchen corner. Book direct from ₹2,999/night.">
+<meta property="og:title" content="Gallery | The Oak Villa Dehradun">
+<meta property="og:description" content="Real photos — valley view, bedroom, living area, kitchen, bathroom. Book direct from ₹2,999.">
+<meta property="og:url" content="https://theoakvillastays.in/gallery.html">
+<meta property="og:image" content="https://theoakvillastays.in/img-balcony.png">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://theoakvillastays.in/gallery.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0f0b07;--ink2:#1c1208;--gold:#b8873a;--gold3:#f0c878;--cream:#faf7f2;--cream2:#f3ece0;--white:#ffffff;--muted:#6b5a42;--border:rgba(184,135,58,.16)}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
+body{font-family:'Jost',sans-serif;background:var(--cream);color:var(--ink);overflow-x:hidden}
+img{display:block;width:100%;height:100%;object-fit:cover}
+a{text-decoration:none;color:inherit}
+nav{position:fixed;top:0;left:0;right:0;z-index:999;display:flex;align-items:center;justify-content:space-between;padding:20px 60px;background:rgba(250,247,242,0.97);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);transition:padding .3s}
+nav.scrolled{padding:13px 60px}
+.logo-main{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;color:var(--ink)}
+.logo-sub{font-size:9.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:500}
+.nav-links{display:flex;gap:32px}
+.nav-links a{font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);position:relative;padding-bottom:3px;transition:color .2s}
+.nav-links a::after{content:'';position:absolute;bottom:0;left:0;width:0;height:1px;background:var(--gold);transition:width .3s}
+.nav-links a:hover,.nav-links a.active{color:var(--ink)}
+.nav-links a:hover::after,.nav-links a.active::after{width:100%}
+.nav-cta{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;padding:11px 26px;background:var(--ink);color:var(--cream);transition:background .2s}
+.nav-cta:hover{background:var(--gold)}
+.hmbg{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px}
+.hmbg span{display:block;width:22px;height:1.5px;background:var(--ink)}
+.mob-overlay{position:fixed;inset:0;z-index:9998;background:var(--cream);padding:90px 40px 40px;display:flex;flex-direction:column;transform:translateX(100%);transition:transform .4s cubic-bezier(.16,1,.3,1)}
+.mob-overlay.open{transform:translateX(0)}
+.mob-close{position:absolute;top:24px;right:28px;font-size:24px;cursor:pointer;color:var(--muted)}
+.mob-link{font-family:'Cormorant Garamond',serif;font-size:38px;font-weight:300;color:var(--ink);padding:18px 0;border-bottom:1px solid var(--border);display:flex;justify-content:space-between}
+.mob-link:last-of-type{border:none}
+.eye{font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:14px;display:block}
+.hl{font-family:'Cormorant Garamond',serif;font-weight:300;line-height:1.08}
+.btn-dark{background:var(--ink);color:var(--cream);padding:15px 32px;font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:500;cursor:pointer;transition:background .2s;display:inline-block;border:none;font-family:'Jost',sans-serif}
+.btn-dark:hover{background:var(--gold)}
+/* GALLERY HERO */
+.g-hero{padding:140px 60px 60px;background:var(--ink2);position:relative;overflow:hidden}
+.g-hero::before{content:'';position:absolute;inset:0;background:url('img-balcony.png') center 30%/cover;opacity:.2}
+.g-hero-content{position:relative;z-index:2}
+/* FULL GALLERY GRID */
+.gallery-full{padding:0 60px 80px;background:var(--cream2)}
+.g-row1{display:grid;grid-template-columns:2fr 1fr 1fr;gap:5px;margin-bottom:5px}
+.g-row2{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:5px}
+.gi{overflow:hidden;position:relative;cursor:pointer;background:var(--ink2)}
+.gi-h320{height:320px}
+.gi-h320-tall{height:645px}
+.gi-h240{height:240px}
+.gi img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.16,1,.3,1)}
+.gi:hover img{transform:scale(1.07)}
+.gi-lbl{position:absolute;bottom:0;left:0;right:0;padding:24px 16px 13px;background:linear-gradient(to top,rgba(15,11,7,.88),transparent);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--white);opacity:0;transition:opacity .3s}
+.gi:hover .gi-lbl{opacity:1}
+/* CTA */
+.cta-sec{padding:80px 60px;text-align:center}
+footer{background:var(--ink2);padding:76px 60px 44px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:52px;margin-bottom:56px}
+.fb-name{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:300;color:var(--white);margin-bottom:12px}
+.fb-desc{font-size:13px;color:rgba(255,255,255,.35);line-height:1.9;font-weight:300}
+.fc-t{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;font-weight:500}
+.fc-l{display:block;font-size:13.5px;color:rgba(255,255,255,.4);margin-bottom:11px;transition:color .2s;font-weight:300}
+.fc-l:hover{color:rgba(255,255,255,.8)}
+.footer-btm{border-top:1px solid rgba(255,255,255,.06);padding-top:26px;display:flex;justify-content:space-between;font-size:11.5px;color:rgba(255,255,255,.22)}
+.wa-float{position:fixed;bottom:28px;right:28px;z-index:9000;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 4px 24px rgba(37,211,102,.4);transition:transform .25s}
+.wa-float:hover{transform:scale(1.1)}
+@media(max-width:768px){
+  nav{padding:14px 24px}
+  .nav-links,.nav-cta{display:none}
+  .hmbg{display:flex}
+  .g-hero{padding:100px 24px 48px}
+  .gallery-full{padding:0 0 48px}
+  .g-row1,.g-row2{grid-template-columns:1fr 1fr;gap:4px}
+  .gi-h320-tall,.gi-h320{height:200px}
+  .gi-h240{height:180px}
+  .cta-sec{padding:56px 24px}
+  footer{padding:48px 24px 32px}
+  .footer-grid{grid-template-columns:1fr;gap:36px}
+  .footer-btm{flex-direction:column;gap:8px;text-align:center}
+}
+</style>
+</head>
+<body>
+<nav id="nav">
+  <a class="logo" href="index.html"><div class="logo-main">The Oak Villa</div><div class="logo-sub">Dehradun &middot; Rajpur Road</div></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a><a href="packages.html">Packages</a><a href="workation.html">Workation</a><a href="cooking-class.html">Cooking Class</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="location.html">Location</a>
+  </div>
+  <a class="nav-cta" href="book.html">Book Now</a>
+  <div class="hmbg" onclick="openMob()"><span></span><span></span><span></span></div>
+</nav>
+<div class="mob-overlay" id="mobOverlay">
+  <div class="mob-close" onclick="closeMob()">&#10005;</div>
+  <a class="mob-link" href="index.html">Home <span>&#8594;</span></a>
+  <a class="mob-link" href="packages.html">Packages <span>&#8594;</span></a>
+  <a class="mob-link" href="workation.html">Workation <span>&#8594;</span></a>
+  <a class="mob-link" href="cooking-class.html">Cooking Class <span>&#8594;</span></a>
+  <a class="mob-link" href="gallery.html">Gallery <span>&#8594;</span></a>
+  <a class="mob-link" href="location.html">Location <span>&#8594;</span></a>
+  <div style="margin-top:32px"><a class="btn-dark" href="book.html" style="display:block;text-align:center;padding:16px">Book Now</a></div>
+</div>
+
+<div class="g-hero">
+  <div class="g-hero-content">
+    <span class="eye" style="color:var(--gold3)">Inside The Oak Villa</span>
+    <h1 class="hl" style="font-size:clamp(48px,6vw,80px);color:var(--white);margin-top:12px;margin-bottom:14px">Every corner<br>tells a <em style="color:var(--gold3)">story</em></h1>
+    <p style="font-size:16px;color:rgba(255,255,255,.45);font-weight:300">Real photos. Real property. Real view. This is what you book.</p>
+  </div>
+</div>
+
+<div class="gallery-full">
+  <!-- Row 1: Hero + 2 -->
+  <div class="g-row1">
+    <div class="gi gi-h320-tall">
+      <img src="img-balcony.png" alt="Mussoorie valley view sunrise balcony The Oak Villa Rajpur Road Dehradun private homestay all meals included">
+      <div class="gi-lbl">Valley View &middot; Balcony &middot; Dawn</div>
+    </div>
+    <div class="gi gi-h320">
+      <img src="img-living-view.png" alt="living room valley view evening Mussoorie hills The Oak Villa Dehradun">
+      <div class="gi-lbl">Living Area &middot; Valley View</div>
+    </div>
+    <div class="gi gi-h320">
+      <img src="img-bedroom.png" alt="bedroom private 1BHK The Oak Villa Dehradun all meals included stay">
+      <div class="gi-lbl">Bedroom</div>
+    </div>
+  </div>
+  <!-- Row 2: 4 equal -->
+  <div class="g-row2">
+    <div class="gi gi-h240">
+      <img src="img-living.png" alt="living area warm interiors private homestay The Oak Villa Dehradun">
+      <div class="gi-lbl">Living Area</div>
+    </div>
+    <div class="gi gi-h240">
+      <img src="img-sofa.png" alt="sofa bedroom suite The Oak Villa Dehradun private 1BHK">
+      <div class="gi-lbl">Bedroom Suite</div>
+    </div>
+    <div class="gi gi-h240">
+      <img src="img-kitchen.png" alt="kitchen corner fresh daily meals Garhwali cooking The Oak Villa Dehradun">
+      <div class="gi-lbl">Kitchen Corner</div>
+    </div>
+    <div class="gi gi-h240">
+      <img src="img-bathroom.png" alt="premium marble bathroom The Oak Villa Dehradun private homestay">
+      <div class="gi-lbl">Bathroom</div>
+    </div>
+  </div>
+</div>
+
+<div class="cta-sec">
+  <span class="eye">Book What You See</span>
+  <h2 class="hl" style="font-size:clamp(36px,4vw,56px);margin:12px 0 18px">This is the actual space.<br><em style="color:var(--gold)">Ready for you.</em></h2>
+  <p style="font-size:16px;color:var(--muted);max-width:480px;margin:0 auto 40px;font-weight:300">Real floor. Real view. Real meals. Book direct and it's all yours from &#8377;2,999/night.</p>
+  <a class="btn-dark" href="book.html">Book Now &middot; From &#8377;2,999/night &#8594;</a>
+</div>
+
+<footer>
+  <div style="max-width:1120px;margin:0 auto">
+    <div class="footer-grid">
+      <div><div class="fb-name">The Oak Villa</div><p class="fb-desc">Dehradun's only private homestay with all meals included. Rajpur Road, Kishanpur, Dehradun 248009.</p></div>
+      <div><div class="fc-t">Stay</div><a class="fc-l" href="packages.html">Packages</a><a class="fc-l" href="workation.html">Workation</a><a class="fc-l" href="cooking-class.html">Culinary Classes</a><a class="fc-l" href="book.html">Book Now</a></div>
+      <div><div class="fc-t">Explore</div><a class="fc-l" href="gallery.html">Gallery</a><a class="fc-l" href="location.html">Location</a><a class="fc-l" href="index.html">Home</a></div>
+      <div><div class="fc-t">Contact</div><a class="fc-l" href="tel:+918859906335">+91 88599 06335</a><a class="fc-l" href="https://wa.me/918859906335" target="_blank">WhatsApp</a></div>
+    </div>
+    <div class="footer-btm"><span>&copy; 2026 The Oak Villa &middot; Dehradun</span><span>4.9 &#9733; Google &middot; 81 Reviews</span></div>
+  </div>
+</footer>
+<a class="wa-float" href="https://wa.me/918859906335?text=Hi+I+want+to+check+availability+at+The+Oak+Villa" target="_blank">&#128172;</a>
+<script>
+window.addEventListener('scroll',function(){document.getElementById('nav').classList.toggle('scrolled',window.scrollY>40)});
+function openMob(){document.getElementById('mobOverlay').classList.add('open');document.body.style.overflow='hidden'}
+function closeMob(){document.getElementById('mobOverlay').classList.remove('open');document.body.style.overflow=''}
+</script>
+</body>
+</html>
