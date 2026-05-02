@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0c878"/>
+      <stop offset="100%" style="stop-color:#b8873a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark background circle -->
+  <circle cx="50" cy="50" r="50" fill="#0f0b07"/>
+
+  <!-- Gold outer ring -->
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#b8873a" stroke-width="1.5"/>
+
+  <!-- Oak leaf / botanical star -->
+  <path d="
+    M50,14
+    C56,20 62,22 68,18
+    C65,26 67,32 74,36
+    C66,38 63,44 66,50
+    C60,47 56,48 50,54
+    C44,48 40,47 34,50
+    C37,44 34,38 26,36
+    C33,32 35,26 32,18
+    C38,22 44,20 50,14Z
+  " fill="#d4a45a" opacity="0.95"/>
+
+  <!-- Center dark circle -->
+  <circle cx="50" cy="50" r="16" fill="#0f0b07"/>
+
+  <!-- OV text -->
+  <text x="50" y="55"
+    font-family="Georgia, serif"
+    font-size="13"
+    font-style="italic"
+    fill="#d4a45a"
+    text-anchor="middle"
+    letter-spacing="0.5">OV</text>
+</svg>
